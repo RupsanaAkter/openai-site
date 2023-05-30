@@ -5,6 +5,7 @@ import Brand from '../Brand/Brand';
 import Whatgpt from '../Whatgpt3/Whatgpt';
 import Features from '../Features/Features';
 import Posibility from '../Possibility/Posibility';
+import Cta from '../Cta/Cta';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
            <Whatgpt></Whatgpt>
            <Features></Features>
            <Posibility></Posibility>
+           <Cta></Cta>
             <Article></Article>
         </div>
     );
