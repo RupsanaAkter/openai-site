@@ -3,6 +3,7 @@ import Article from '../Article/Article';
 import Header from '../Header/Header';
 import Brand from '../Brand/Brand';
 import Whatgpt from '../Whatgpt3/Whatgpt';
+import Features from '../Features/Features';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Brand></Brand>
            </div>
            <Whatgpt></Whatgpt>
+           <Features></Features>
             <Article></Article>
         </div>
     );
