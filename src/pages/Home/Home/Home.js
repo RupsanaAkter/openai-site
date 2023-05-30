@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Brand from '../Brand/Brand';
 import Whatgpt from '../Whatgpt3/Whatgpt';
 import Features from '../Features/Features';
+import Posibility from '../Possibility/Posibility';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
            </div>
            <Whatgpt></Whatgpt>
            <Features></Features>
+           <Posibility></Posibility>
             <Article></Article>
         </div>
     );
