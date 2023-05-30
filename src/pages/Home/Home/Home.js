@@ -6,6 +6,7 @@ import Whatgpt from '../Whatgpt3/Whatgpt';
 import Features from '../Features/Features';
 import Posibility from '../Possibility/Posibility';
 import Cta from '../Cta/Cta';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
            <Features></Features>
            <Posibility></Posibility>
            <Cta></Cta>
-            <Article></Article>
+            <Blog></Blog>
         </div>
     );
 };
